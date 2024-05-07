@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .openbtn {
+    background: transparent;
+    color: black;
+    background-color: rgb(116, 189, 140);
+    font-size: 1rem;
+    border: 1px solid rgb(175, 170, 170);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20%;
+  }
+  .openbtn:hover {
+    color: black;
+    background: rgb(97, 158, 79);
+  }
+  h1{
+   color: rgb(5, 57, 21);
+  }
+  .head {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsK8KvS15p7MQjKYK-DtOi-qypSAQxk3VYw&usqp=CAU");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  .box {
+    background: rgb(238, 252, 227);
+    padding: 1%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 6px rgb(85, 84, 84);
+    text-align: center;
+    width: 22vw;
+  }
+  .modalbtn:hover {
+    background: transparent;
+    color: black;
+  }
+  .containt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(202, 219, 162, 0.5);
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+    z-index: -10;
+  }
+  .nextcontaint {
+    visibility: visible;
+    z-index: 10;
+  }
+  .box2 {
+    background: rgb(218, 235, 182);
+    border-radius: 5px;
+    width: 32vw;
+    height: 40vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+  h2{
+    color: rgb(243, 93, 33);
+  }
+  p{
+    margin-top: -20%;
+  }
+  .closebtn{
+    position: absolute;
+    background: transparent;
+    color: black;
+    background-color: rgb(228, 74, 66);
+    font-size: 1rem;
+    border: 1px solid rgb(83, 80, 80);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(70, 69, 69, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 50%;
+  }
+  .closebtn:hover {
+    background-color: rgb(249, 61, 51);
+    color: black;
+  }
